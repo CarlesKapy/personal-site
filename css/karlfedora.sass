@@ -1,0 +1,49 @@
+@import ../node_modules/bulma/sass/utilities/initial-variables
+@import ../node_modules/bulma/sass/utilities/functions
+
+$background: $black
+$body-background-color: $background
+$card-background-color: $background
+$primary: #29bf89
+
+$text: findColorInvert($background)
+$text-light: $text
+$text-strong: $primary
+
+$title-color: $white-bis
+
+
+$family-sans-serif: "Source Sans Pro"
+
+.karl-resume
+  font-size: $size-3
+  padding-top: 25vh
+  padding-bottom: 25vh
+
+.column
+  &.karl-what-do-i-do
+    min-height: 100vh
+    overflow: hidden
+
+    background-position: center center
+    background-repeat: no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+
+    .content
+      width: 100%
+      height: 100%
+      padding: 70vh 5vw 5vh 5vw
+
+.footer
+  padding: 1rem!important
+  font-size: $size-7
+
+a.is-primary
+  color: $primary
+
+.parallax-mirror
+  -webkit-filter: brightness(55%)
+
+
+@import ../node_modules/bulma/bulma
