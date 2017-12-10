@@ -24,7 +24,8 @@ a.is-primary {
   color: #29bf89; }
 
 .parallax-mirror {
-  -webkit-filter: brightness(55%); }
+  -webkit-filter: brightness(55%);
+  filter: brightness(55%); }
 
 /*! bulma.io v0.6.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
